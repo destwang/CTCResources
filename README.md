@@ -47,6 +47,9 @@ Zhao Guo, Yuan Ni, Keqiang Wang, Wei Zhu and Guotong Xie.
 **Correcting Chinese Spelling Errors with Phonetic Pre-training**. Findings of ACL 2021.  
 Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, Hua Wu and Haifeng Wang.
 
+**DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
+Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
+
 **Chunk-based Chinese Spelling Check with Global Optimization**. Findings of EMNLP 2020.  
 Zuyi Bao, Chen Li and Rui Wang. [[pdf](https://aclanthology.org/2020.findings-emnlp.184.pdf)].
 
