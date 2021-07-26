@@ -68,20 +68,17 @@ Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)].
 ### GEC Papers
 > ### 2021
 
-**A Simple Recipe for Multilingual Grammatical Error Correction**. ACL-IJCNLP 2021.  
-Sascha Rothe, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.[[pdf](https://arxiv.org/abs/2106.03830)].
-
 **Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding**. ACL 2021.  
- Xin Sun, Tao Ge, Furu Wei, Houfeng Wang.[[pdf](https://arxiv.org/abs/2106.04970)].[[code](https://github.com/AutoTemp/Shallow-Aggressive-Decoding)].
+Xin Sun, Tao Ge, Furu Wei, Houfeng Wang.[[pdf](https://aclanthology.org/2021.acl-long.462/)].[[code](https://github.com/AutoTemp/Shallow-Aggressive-Decoding)].
 
 **Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical ErrorCorrection**. ACL 2021.  
-Piji Li, Shuming Shi.[[pdf](https://arxiv.org/abs/2106.01609)].[[code](https://github.com/lipiji/TtT)].
+Piji Li, Shuming Shi.[[pdf](https://aclanthology.org/2021.acl-long.385/)].[[code](https://github.com/lipiji/TtT)].
 
-**Grammatical Error Correction as GAN-like Sequence Labeling**. findings of ACL 2021 .  
-Kevin Parnow, Zuchao Li, Hai Zhao.[[pdf](https://arxiv.org/abs/2105.14209)].
+**A Simple Recipe for Multilingual Grammatical Error Correction**. ACL 2021 short.  
+Sascha Rothe, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.[[pdf](https://aclanthology.org/2021.acl-short.89/)].
 
 **Synthetic Data Generation for Grammatical Error Correction with Tagged Corruption Models**. EACL-BEA 2021.  
-Felix Stahlberg, Shankar Kumar.[[pdf](https://aclanthology.org/2021.bea-1.4/)].[[code](Google)].
+Felix Stahlberg, Shankar Kumar.[[pdf](https://aclanthology.org/2021.bea-1.4/)].
 
 **Document-level grammatical error correction**. EACL-BEA 2021.  
 Zheng Yuan, Christopher Bryant.[[pdf](https://aclanthology.org/2021.bea-1.8/)].
@@ -116,7 +113,7 @@ Kostiantyn Omelianchuk, Vitaliy Atrasevych, Artem Chernodub, Oleksandr Skurzh
 Max White, Alla Rozovskaya.[[pdf](https://aclanthology.org/2020.bea-1.21/)].
 
 **Improving Grammatical Error Correction Models with Purpose-Built Adversarial Examples**. EMNLP 2020.  
-Lihao Wang, Xiaoqing Zheng.[[pdf](https://aclanthology.org/2020.emnlp-main.228/)].[[code](a)].
+Lihao Wang, Xiaoqing Zheng.[[pdf](https://aclanthology.org/2020.emnlp-main.228/)].
 
 **Improving the Efficiency of Grammatical Error Correction with Erroneous Span Detection and Correction**. EMNLP 2020.  
 Mengyun Chen, Tao Ge, Xingxing Zhang, Furu Wei, Ming Zhou.[[pdf](https://aclanthology.org/2020.emnlp-main.581/)].
