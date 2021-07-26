@@ -11,10 +11,9 @@
     - [CSC Papers](#csc-papers)
     - [GEC Papers](#gec-papers)
   - [Datasets](#datasets)
-    - [Chinese](#chinese)
-    - [English](#english)
-  - [Systems](#systems)
-  - [Other Related Resources](#other-related-resources)
+  - [Systems & API](#systems--api)
+  - [Other Resources](#other-resources)
+    - [Related Articles](#related-articles)
 
 
 ## Defination
@@ -26,6 +25,7 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 
 ## Papers
 ### CSC Papers
+> ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
 Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[code](https://github.com/liushulinle/PLOME)].
 
@@ -50,6 +50,7 @@ Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, 
 **DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
 Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
 
+> ### 2020
 **Chunk-based Chinese Spelling Check with Global Optimization**. Findings of EMNLP 2020.  
 Zuyi Bao, Chen Li and Rui Wang. [[pdf](https://aclanthology.org/2020.findings-emnlp.184.pdf)].
 
@@ -59,6 +60,7 @@ Xingyi Cheng, Weidi Xu, Kunlong Chen, Shaohua Jiang, Feng Wang, Taifeng Wang, We
 **Spelling Error Correction with Soft-Masked BERT**. ACL 2020.  
 Shaohua Zhang, Haoran Huang, Jicong Liu and Hang Li. [[pdf](https://aclanthology.org/2020.acl-main.82.pdf)].
 
+> ### 2019
 **FASPell: A Fast, Adaptable, Simple, Powerful Chinese Spell Checker Based On DAE-Decoder Paradigm**. EMNLP 2019 Workshop W-NUT.  
 Yuzhong Hong, Xianguo Yu, Neng He, Nan Liu, Junhui Liu. [[pdf](https://aclanthology.org/D19-5522.pdf)], [[code](https://github.com/iqiyi/FASPell)].
 
@@ -424,17 +426,36 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 
 ## Datasets
-### Chinese
-* CTC 2021
-* CGED
-* NLPCC 2018 GEC
-* SIGHAN
+| dataset | task | # sents | source | language |
+|-|-|-|-|-|
+| SIGHAN 2013 | CSC | 350 & 974 | SIGHAN | Zh |
+| SIGHAN 2014 | CSC | 6,526 & 526 | SIGHAN | Zh |
+| SIGHAN 2015 | CSC | 3,174 & 550 | SIGHAN | Zh |
+|[OCR dataset](https://github.com/iqiyi/FASPell)|CSC|4575|[FASPell(iqiyi)](https://www.aclweb.org/anthology/D19-5522.pdf)|Zh|
+| [HybridSet](https://github.com/wdimmy/Automatic-Corpus-Generation) | CSC | 270K | - | Zh |
+| NLPCC 2018 GEC | GEC | - | NLPCC | Zh |
+| CGED | GED | - | HSK | Zh |
+| CoNLL 2013 | GEC | 1,381 | CONLL | En |
+| CoNLL 2014 | GEC | 1,312 | CONLL | En |
+| JFLEG | GEC | 747 | [JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction](https://aclanthology.org/E17-2037.pdf) | En |
+| NUCLE | GEC | 57k | [Building a Large Annotated Corpus of Learner English: The NUS Corpus of Learner English](https://aclanthology.org/W13-1703.pdf) | En |
+| Lang-8 | GEC | 1M+ | Lang-8 | En |
+| Write&Improve+LOCNESS  | GEC | 63,683 & 7,632 | - | En |
+|MMC+PsyTAR (medica)||512 & 79| - |En|
+|brikbeck+holbrook-tagged+holbrook-missp+aspell+wikipedia|(Misspelling word)| 36133/6136 & 1791/1200& 531/450& 2455/1922|[BBK](https://www.dcs.bbk.ac.uk/~ROGER/corpora.htm)|En|
+|[TOEFL-Spell](https://github.com/EducationalTestingService/toefl-spell)|-|-|[A Benchmark Corpus of English Misspellings and a Minimally-supervised Model for Spelling Correction](https://www.aclweb.org/anthology/W19-4407.pdf)|En|
+|[NUC-GEC](https://www.comp.nus.edu.sg/~nlp/corpora.html)|GEC|500 essays|[How Far are We from Fully Automatic High Quality Grammatical Error Correction?](https://www.aclweb.org/anthology/P15-1068.pdf)|En|
+| [BEA2019](https://www.cl.cam.ac.uk/research/nl/bea2019st/) | GEC | 34,308 | BEA | En |
+| PIE-synthetic | GEC | 9,000,000 | [Parallel iterative edit models for local sequence transduction](https://aclanthology.org/D19-1435/) | En |
+| [clang8](https://github.com/google-research-datasets/clang8) | GEC | 2,372,119 & 114,405 & 44,830 | - | En,GE,RU |
 
-### English
-* CoNLL 2013
-* CoNLL 2014
 
-## Systems
+## Systems & API
+Feiying System: http://check.hfl-rc.com/  
+Feiying API: https://www.xfyun.cn/services/textCorrection
 
 
-## Other Related Resources
+## Other Resources
+### Related Articles
+* [语法纠错的研究现状](https://mp.weixin.qq.com/s/0_qp1WsrEsjnj8ST4zQyTQ)
+* [文本语法纠错不完全调研](https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q)
