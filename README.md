@@ -207,6 +207,9 @@ Phu Mon Htut, Joel Tetreault.[[pdf](https://aclanthology.org/W19-4449/)].
 **An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction**. EMNLP 2019.  
 Shun Kiyono, Jun Suzuki, Masato Mita, Tomoya Mizumoto, Kentaro Inui.[[pdf](https://arxiv.org/abs/1909.00502)].
 
+**Encode, Tag, Realize: High-Precision Text Editing**. EMNLP 2019.  
+Eric Malmi, Sebastian Krause, Sascha Rothe, Daniil Mirylenka, Aliaksei Severyn.[[pdf](https://aclanthology.org/D19-1510/)].
+
 **Personalizing Grammatical Error Correction: Adaptation to Proficiency Level and L1**. EMNLP 2019.  
 Maria Nadejde, Joel Tetreault.[[pdf](https://aclanthology.org/D19-5504/)].
 
@@ -215,6 +218,12 @@ Jakub Náplava, Milan Straka.[[pdf](https://aclanthology.org/D19-5545/)].
 
 **Minimally-Augmented Grammatical Error Correction**. EMNLP 2019.  
 Roman Grundkiewicz, Marcin Junczys-Dowmunt.[[pdf](https://aclanthology.org/D19-5546/)].
+
+**Parallel Iterative Edit Models for Local Sequence Transduction**. EMNLP 2019.  
+Abhijeet Awasthi, Sunita Sarawagi, Rasna Goyal, Sabyasachi Ghosh, Vihari Piratla.[[pdf](https://aclanthology.org/D19-1435/)].
+
+**Learning to Copy for Automatic Post-Editing**. EMNLP 2019.  
+Xuancheng Huang, Yang Liu, Huanbo Luan, Jingfang Xu, Maosong Sun.[[pdf](https://aclanthology.org/D19-1634/)].
 
 **Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data**. NAACL 2019.  
 Wei Zhao, Liang Wang, Kewei Shen, Ruoyu Jia, Jingming Liu.[[pdf](https://aclanthology.org/N19-1014/)].
@@ -227,6 +236,191 @@ Jared Lichtarge, Chris Alberti, Shankar Kumar, Noam Shazeer, Niki Parmar, S
 
 **Neural Grammatical Error Correction with Finite State Transducers**. NAACL 2019.  
 Felix Stahlberg, Christopher Bryant, Bill Byrne.[[pdf](https://aclanthology.org/N19-1406/)].
+
+> ### 2018
+
+**Inherent Biases in Reference-based Evaluation for Grammatical Error Correction**. ACL 2018.  
+Leshem Choshen, Omri Abend.[[pdf](https://aclanthology.org/P18-1059/)].
+
+**Fluency Boost Learning and Inference for Neural Grammatical Error Correction**. ACL 2018.  
+Tao Ge, Furu Wei, Ming Zhou.[[pdf](https://aclanthology.org/P18-1097/)].
+
+**Automatic Metric Validation for Grammatical Error Correction**. ACL 2018.  
+Leshem Choshen, Omri Abend.[[pdf](https://aclanthology.org/P18-1127/)].
+
+**Overview of NLPTEA-2018 Share Task Chinese Grammatical Error Diagnosis**. ACL 2018 NLPTEA.  
+Gaoqi Rao, Qi Gong, Baolin Zhang, Endong Xun.[[pdf](https://aclanthology.org/W18-3706/)].
+
+**Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task**. NAACL 2018.  
+Marcin Junczys-Dowmunt, Roman Grundkiewicz, Shubha Guha, Kenneth Heafield.[[pdf](https://aclanthology.org/N18-1055/)].
+
+**Noising and Denoising Natural Language: Diverse Backtranslation for Grammar Correction**. NAACL 2018.  
+Ziang Xie, Guillaume Genthial, Stanley Xie, Andrew Ng, Dan Jurafsky.[[pdf](https://aclanthology.org/N18-1057/)].
+
+**Reference-less Measure of Faithfulness for Grammatical Error Correction**. NAACL 2018 short.  
+Leshem Choshen, Omri Abend.[[pdf](https://aclanthology.org/N18-2020/)].
+
+**Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation**. NAACL 2018 short.  
+Roman Grundkiewicz, Marcin Junczys-Dowmunt.[[pdf](https://aclanthology.org/N18-2046/)].
+
+**Language Model Based Grammatical Error Correction without Annotated Training Data**. NAACL 2018 BEA.  
+Christopher Bryant, Ted Briscoe.[[pdf](https://aclanthology.org/W18-0529/)].
+
+**A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction**. AAAI 2018.  
+Shamil Chollampatt, Hwee Tou Ng.[[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17308/16137)].
+
+**Neural Quality Estimation of Grammatical Error Correction**. EMNLP 2018.  
+Shamil Chollampatt, Hwee Tou Ng.[[pdf](https://aclanthology.org/D18-1274/)].
+
+**Wronging a Right: Generating Better Errors to Improve Grammatical Error Detection**. EMNLP 2018.  
+Sudhanshu Kasewa, Pontus Stenetorp, Sebastian Riedel.[[pdf](https://aclanthology.org/D18-1541/)].
+
+**Using Wikipedia Edits in Low Resource Grammatical Error Correction**. EMNLP 2018.  
+Adriane Boyd.[[pdf](https://aclanthology.org/W18-6111/)].
+
+**Cool English: a Grammatical Error Correction System Based on Large Learner Corpora**. COLING 2018.  
+Yu-Chun Lo, Jhih-Jie Chen, Chingyu Yang, Jason Chang.[[pdf](https://aclanthology.org/C18-2018/)].
+
+**A Reassessment of Reference-Based Grammatical Error Correction Metrics**. COLING 2018.  
+Shamil Chollampatt, Hwee Tou Ng.[[pdf](https://aclanthology.org/C18-1231/)].
+
+> ### earlier
+
+**A Nested Attention Neural Hybrid Model for Grammatical Error Correction**. ACL 2017.  
+Jianshu Ji, Qinlong Wang, Kristina Toutanova, Yongen Gong, Steven Truong, Jianfeng Gao.[[pdf](https://aclanthology.org/P17-1070/)].
+
+**Automatic Annotation and Evaluation of Error Types for Grammatical Error Correction**. ACL 2017.  
+Christopher Bryant, Mariano Felice, Ted Briscoe.[[pdf](https://aclanthology.org/P17-1074/)].
+
+**Neural Sequence-Labelling Models for Grammatical Error Correction**. EMNLP 2017.  
+Helen Yannakoudakis, Marek Rei, Øistein E. Andersen, Zheng Yuan.[[pdf](https://aclanthology.org/D17-1297/)].
+
+**JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction**. EACL 2017.  
+Courtney Napoles, Keisuke Sakaguchi, Joel Tetreault.[[pdf](https://aclanthology.org/E17-2037/)].
+
+**Grammatical Error Detection Using Error- and Grammaticality-Specific Word Embeddings**. IJCNLP 2017.  
+Masahiro Kaneko, Yuya Sakaizawa, Mamoru Komachi.[[pdf](https://aclanthology.org/I17-1005/)].
+
+**Reference-based Metrics can be Replaced with Reference-less Metrics in Evaluating Grammatical Error Correction Systems**. IJCNLP 2017.  
+Hiroki Asano, Tomoya Mizumoto, Kentaro Inui.[[pdf](https://aclanthology.org/I17-2058/)].
+
+**Grammatical Error Correction with Neural Reinforcement Learning**. IJCNLP 2017.  
+Keisuke Sakaguchi, Matt Post, Benjamin Van Durme.[[pdf](https://aclanthology.org/I17-2062/)].
+
+**Grammatical Error Correction: Machine Translation and Classifiers**. ACL 2016.  
+Alla Rozovskaya, Dan Roth.[[pdf](https://aclanthology.org/P16-1208/)].
+
+**Compositional Sequence Labeling Models for Error Detection in Learner Writing**. ACL 2016.  
+Marek Rei, Helen Yannakoudakis.[[pdf](https://aclanthology.org/P16-1112/)].
+
+**Grammatical error correction using neural machine translation**. NAACL 2016 short.  
+Zheng Yuan, Ted Briscoe.[[pdf](https://aclanthology.org/N16-1042/)].
+
+**Discriminative Reranking for Grammatical Error Correction with Statistical Machine Translation**. NAACL 2016 short.  
+Tomoya Mizumoto, Yuji Matsumoto.[[pdf](https://aclanthology.org/N16-1133/)].
+
+**Phrase-based Machine Translation is State-of-the-Art for Automatic Grammatical Error Correction**. EMNLP 2016.  
+Marcin Junczys-Dowmunt, Roman Grundkiewicz.[[pdf](https://aclanthology.org/D16-1161/)].
+
+**Adapting Grammatical Error Correction Based on the Native Language of Writers with Neural Network Joint Models**. EMNLP 2016.  
+Shamil Chollampatt, Duc Tam Hoang, Hwee Tou Ng.[[pdf](https://aclanthology.org/D16-1195/)].
+
+**There’s No Comparison: Reference-less Evaluation Metrics in Grammatical Error Correction**. EMNLP 2016.  
+Courtney Napoles, Keisuke Sakaguchi, Joel Tetreault.[[pdf](https://aclanthology.org/D16-1228/)].
+
+**Chinese Preposition Selection for Grammatical Error Diagnosis**. COLING 2016.  
+Hen-Hsen Huang, Yen-Chi Shao, Hsin-Hsi Chen.[[pdf](https://aclanthology.org/C16-1085/)].
+
+**Neural Network Translation Models for Grammatical Error Correction**. IJCAI 2016.  
+S Chollampatt，K Taghipour，HT Ng.[[pdf](https://arxiv.org/pdf/1606.00189.pdf)].
+
+**Exploiting N-Best Hypotheses to Improve an SMT Approach to Grammatical Error Correction**. IJCAI 2016.  
+DT Hoang，S Chollampatt，HT Ng.[[pdf](http://www.researchgate.net/publication/303749890_Exploiting_N-Best_Hypotheses_to_Improve_an_SMT_Approach_to_Grammatical_Error_Correction)].
+
+**How Far are We from Fully Automatic High Quality Grammatical Error Correction?**. ACL 2015.  
+Christopher Bryant, Hwee Tou Ng.[[pdf](https://aclanthology.org/P15-1068/)].
+
+**Ground Truth for Grammatical Error Correction Metrics**. ACL 2015 short.  
+Courtney Napoles, Keisuke Sakaguchi, Matt Post, Joel Tetreault.[[pdf](https://aclanthology.org/P15-2097/)].
+
+**Towards a standard evaluation method for grammatical error detection and correction**. NAACL 2015.  
+Mariano Felice, Ted Briscoe.[[pdf](https://aclanthology.org/N15-1060/)].
+
+**Human Evaluation of Grammatical Error Correction Systems**. EMNLP 2015.  
+Roman Grundkiewicz, Marcin Junczys-Dowmunt, Edward Gillian.[[pdf](https://aclanthology.org/D15-1052/)].
+
+**Ground Truth for Grammatical Error Correction Metrics**. IJCNLP 2015.  
+Courtney Napoles, Keisuke Sakaguchi, Matt Post, Joel Tetreault.[[pdf](https://aclanthology.org/P15-2097/)].
+
+**Go Climb a Dependency Tree and Correct the Grammatical Errors**. EMNLP 2014.  
+Longkai Zhang, Houfeng Wang.[[pdf](https://aclanthology.org/D14-1033/)].
+
+**System Combination for Grammatical Error Correction**. EMNLP 2014.  
+Raymond Hendy Susanto, Peter Phandi, Hwee Tou Ng.[[pdf](https://aclanthology.org/D14-1102/)].
+
+**Data Driven Grammatical Error Detection in Transcripts of Children’s Speech**. EMNLP 2014.  
+Eric Morley, Anna Eva Hallin, Brian Roark.[[pdf](https://aclanthology.org/D14-1106/)].
+
+**Generating artificial errors for grammatical error correction**. EACL 2014.  
+Mariano Felice, Zheng Yuan.[[pdf](https://aclanthology.org/E14-3013/)].
+
+**Correcting Grammatical Verb Errors**. EACL 2014.  
+Alla Rozovskaya, Dan Roth, Vivek Srikumar.[[pdf](https://aclanthology.org/E14-1038/)].
+
+**Detecting Learner Errors in the Choice of Content Words Using Compositional Distributional Semantics**. COLING 2014.  
+Ekaterina Kochmar, Ted Briscoe.[[pdf](https://aclanthology.org/C14-1164/)].
+
+**A Sentence Judgment System for Grammatical Error Detection**. COLING 2014.  
+Lung-Hao Lee, Liang-Chih Yu, Kuei-Ching Lee, Yuen-Hsien Tseng, Li-Ping Chang, Hsin-Hsi Chen.[[pdf](https://aclanthology.org/C14-2015/)].
+
+**Automated Grammatical Error Correction for Language Learners**. COLING 2014.  
+Joel Tetreault, Claudia Leacock.[[pdf](https://aclanthology.org/C14-3004/)].
+
+**Grammatical Error Correction Using Integer Linear Programming**. ACL 2013.  
+Yuanbin Wu, Hwee Tou Ng.[[pdf](https://aclanthology.org/P13-1143/)].
+
+**Joint Learning and Inference for Grammatical Error Correction**. EMNLP 2013.  
+Alla Rozovskaya, Dan Roth.[[pdf](https://aclanthology.org/D13-1074/)].
+
+**Automated Grammar Correction Using Hierarchical Phrase-Based Statistical Machine Translation**. IJCNLP 2013.  
+Bibek Behera, Pushpak Bhattacharyya.[[pdf](https://aclanthology.org/I13-1122/)].
+
+**Grammatical Error Correction Using Feature Selection and Confidence Tuning**. IJCNLP 2013.  
+Yang Xiang, Yaoyun Zhang, Xiaolong Wang, Chongqiang Wei, Wen Zheng, Xiaoqiang Zhou, Yuxiu Hu, Yang Qin.[[pdf](https://aclanthology.org/I13-1148/)].
+
+**A Meta Learning Approach to Grammatical Error Correction**. ACL 2012.  
+Hongsuck Seo, Jonghoon Lee, Seokhwan Kim, Kyusong Lee, Sechun Kang, Gary Geunbae Lee.[[pdf](https://aclanthology.org/P12-2064/)].
+
+**Grammar Error Correction Using Pseudo-Error Sentences and Domain Adaptation**. ACL 2012.  
+Kenji Imamura, Kuniko Saito, Kugatsu Sadamitsu, Hitoshi Nishikawa.[[pdf]()].
+
+**Better Evaluation for Grammatical Error Correction**. NAACL 2012 short.  
+Daniel Dahlmeier, Hwee Tou Ng.[[pdf](https://aclanthology.org/N12-1067/)].
+
+**A Beam-Search Decoder for Grammatical Error Correction**. EMNLP 2012.  
+Daniel Dahlmeier, Hwee Tou Ng.[[pdf](https://aclanthology.org/D12-1052/)].
+
+**Problems in Evaluating Grammatical Error Detection Systems**. COLING 2012.  
+Martin Chodorow, Markus Dickinson, Ross Israel, Joel Tetreault.[[pdf](https://aclanthology.org/C12-1038/)].
+
+**The Effect of Learner Corpus Size in Grammatical Error Correction of ESL Writings**. COLING 2012.  
+Tomoya Mizumoto, Yuta Hayashibe, Mamoru Komachi, Masaaki Nagata, Yuji Matsumoto.[[pdf](https://aclanthology.org/C12-2084/)].
+
+**They Can Help: Using Crowdsourcing to Improve the Evaluation of Grammatical Error Detection Systems**. ACL 2011.  
+Nitin Madnani, Martin Chodorow, Joel Tetreault, Alla Rozovskaya.[[pdf](https://aclanthology.org/P11-2089/)].
+
+**Grammatical Error Correction with Alternating Structure Optimization**. ACL 2011.  
+Daniel Dahlmeier, Hwee Tou Ng.[[pdf](https://aclanthology.org/P11-1092/)].
+
+**Automated Whole Sentence Grammar Correction Using a Noisy Channel Model**. ACL 2011.  
+Y. Albert Park, Roger Levy.[[pdf](https://aclanthology.org/P11-1094/)].
+
+**Grammatical Error Detection for Corrective Feedback Provision in Oral Conversations**. AAAI 2011.  
+Sungjin Lee, Hyungjong Noh, Kyusong Lee, Gary Geunbae Lee.[[pdf](https://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/view/3501/3954)].
+
+**Evaluating performance of grammatical error detection to maximize learning effect**. COLING 2010.  
+Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
+
 
 
 ## Datasets
