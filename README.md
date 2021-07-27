@@ -1,5 +1,7 @@
 # CTCResources
 
+Resources for Chinese text correction (CTC). The resource list is mainly mantained by Baoxin Wang and Honghong Zhao from HFL (哈工大讯飞联合实验室).
+
 ## Contents
 
 - [CTCResources](#ctcresources)
@@ -459,3 +461,7 @@ Feiying API: https://www.xfyun.cn/services/textCorrection
 ### Related Articles
 * [语法纠错的研究现状](https://mp.weixin.qq.com/s/0_qp1WsrEsjnj8ST4zQyTQ)
 * [文本语法纠错不完全调研](https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q)
+
+
+-----
+*The above resources are only used for academic research. If there is any infringement of copyright, please contact us to delete it.*
