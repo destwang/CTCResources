@@ -29,25 +29,25 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 ### CSC Papers
 > ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
-Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[code](https://github.com/liushulinle/PLOME)].
+Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[pdf](https://aclanthology.org/2021.acl-long.233.pdf)], [[code](https://github.com/liushulinle/PLOME)].
 
 **PHMOSpell: Phonological and Morphological Knowledge Guided Chinese Spelling Check**. ACL 2021.  
-Li Huang, Junjie Li, Weiwei Jiang, Zhiyu Zhang, Minchuan Chen, Shaojun Wang and Jing Xiao.
+Li Huang, Junjie Li, Weiwei Jiang, Zhiyu Zhang, Minchuan Chen, Shaojun Wang and Jing Xiao. [[pdf](https://aclanthology.org/2021.acl-long.464.pdf)].
 
 **Exploration and Exploitation: Two Ways to Improve Chinese Spelling Correction Models**. ACL 2021.  
 Chong Li, Cenyuan Zhang, Xiaoqing Zheng and Xuanjing Huang. [[pdf](https://arxiv.org/pdf/2105.14813.pdf)], [[code](https://github.com/FDChongli/TwoWaysToImproveCSC)].
 
 **Dynamic Connected Networks for Chinese Spelling Check**. Findings of ACL 2021.  
-Baoxin Wang, Wanxiang Che, Dayong Wu, Shijin Wang, Guoping Hu and Ting Liu.
+Baoxin Wang, Wanxiang Che, Dayong Wu, Shijin Wang, Guoping Hu and Ting Liu. [[pdf](https://aclanthology.org/2021.findings-acl.216.pdf)].
 
 **Read, Listen, and See: Leveraging Multimodal Information Helps Chinese Spell Checking**. Findings of ACL 2021.  
 Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang and Xian-Ling Mao. [[pdf](https://arxiv.org/pdf/2105.12306.pdf)], [[code](https://github.com/DaDaMrX/ReaLiSe)].
 
 **Global Attention Decoder for Chinese Spelling Error Correction**. Findings of ACL 2021.  
-Zhao Guo, Yuan Ni, Keqiang Wang, Wei Zhu and Guotong Xie.
+Zhao Guo, Yuan Ni, Keqiang Wang, Wei Zhu and Guotong Xie. [[code](https://aclanthology.org/2021.findings-acl.122.pdf)].
 
 **Correcting Chinese Spelling Errors with Phonetic Pre-training**. Findings of ACL 2021.  
-Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, Hua Wu and Haifeng Wang.
+Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, Hua Wu and Haifeng Wang. [[pdf](https://aclanthology.org/2021.findings-acl.198.pdf)].
 
 **DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
 Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
