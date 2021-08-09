@@ -18,6 +18,7 @@
   - [系统 & API](#系统--api)
   - [其他资源](#其他资源)
     - [相关文章](#相关文章)
+    - [评测比赛](#评测比赛)
 
 
 ## 定义
@@ -40,7 +41,7 @@ Li Huang, Junjie Li, Weiwei Jiang, Zhiyu Zhang, Minchuan Chen, Shaojun Wang and 
 Chong Li, Cenyuan Zhang, Xiaoqing Zheng and Xuanjing Huang. [[pdf](https://arxiv.org/pdf/2105.14813.pdf)], [[code](https://github.com/FDChongli/TwoWaysToImproveCSC)].
 
 **Dynamic Connected Networks for Chinese Spelling Check**. Findings of ACL 2021.  
-Baoxin Wang, Wanxiang Che, Dayong Wu, Shijin Wang, Guoping Hu and Ting Liu. [[pdf](https://aclanthology.org/2021.findings-acl.216.pdf)].
+Baoxin Wang, Wanxiang Che, Dayong Wu, Shijin Wang, Guoping Hu and Ting Liu. [[pdf](https://aclanthology.org/2021.findings-acl.216.pdf)], [[code](https://github.com/destwang/DCN)].
 
 **Read, Listen, and See: Leveraging Multimodal Information Helps Chinese Spell Checking**. Findings of ACL 2021.  
 Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang and Xian-Ling Mao. [[pdf](https://arxiv.org/pdf/2105.12306.pdf)], [[code](https://github.com/DaDaMrX/ReaLiSe)].
@@ -464,6 +465,8 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 * [语法纠错的研究现状](https://mp.weixin.qq.com/s/0_qp1WsrEsjnj8ST4zQyTQ)
 * [文本语法纠错不完全调研](https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q)
 
+### 评测比赛
+* [CTC 2021](https://github.com/destwang/CTC2021)
 
 -----
 *以上资源只用于学术研究，如果有侵犯版权，请联系我们进行删除。*
