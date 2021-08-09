@@ -1,34 +1,34 @@
+
 [**English**](https://github.com/destwang/CTCResources) | [**中文**](https://github.com/destwang/CTCResources/blob/main/README_ZH.md)
+# CTC资源
 
-# CTCResources
+中文文本纠错（Chinese Text Correction, CTC）相关资源，本资源由哈工大讯飞联合实验室（HFL）王宝鑫和赵红红整理维护。
 
-Resources for Chinese text correction (CTC). The resource list is mainly mantained by Baoxin Wang and Honghong Zhao from HFL (哈工大讯飞联合实验室).
+## 整体内容
 
-## Contents
-
-- [CTCResources](#ctcresources)
-  - [Contents](#contents)
-  - [Defination](#defination)
-    - [Chinese Spelling Check (CSC)](#chinese-spelling-check-csc)
-    - [Grammatical Error Correction (GEC)](#grammatical-error-correction-gec)
-  - [Papers](#papers)
-    - [CSC Papers](#csc-papers)
-    - [GEC Papers](#gec-papers)
-  - [Datasets](#datasets)
-  - [Systems & API](#systems--api)
-  - [Other Resources](#other-resources)
-    - [Related Articles](#related-articles)
+- [CTC资源](#ctc资源)
+  - [整体内容](#整体内容)
+  - [定义](#定义)
+    - [中文拼写纠错（Chinese Spelling Check, CSC）](#中文拼写纠错chinese-spelling-check-csc)
+    - [语法纠错（Grammatical Error Correction, GEC）](#语法纠错grammatical-error-correction-gec)
+  - [论文](#论文)
+    - [中文拼写纠错相关论文](#中文拼写纠错相关论文)
+    - [语法纠错相关论文](#语法纠错相关论文)
+  - [数据集](#数据集)
+  - [系统 & API](#系统--api)
+  - [其他资源](#其他资源)
+    - [相关文章](#相关文章)
 
 
-## Defination
-### Chinese Spelling Check (CSC)
-Chinese  spelling  check  (CSC)  is  a  task  to detect  and  correct  spelling  errors  in  Chinese text.
+## 定义
+### 中文拼写纠错（Chinese Spelling Check, CSC） 
+中文拼写纠错任务对中文文本中的拼写纠错（别字、别词）进行检测和纠正。
 
-### Grammatical Error Correction (GEC)
-Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors.
+### 语法纠错（Grammatical Error Correction, GEC）
+语法纠错任务纠正文本中不同类型的错误，包括拼写、标点、语法等类型错误。
 
-## Papers
-### CSC Papers
+## 论文
+### 中文拼写纠错相关论文
 > ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
 Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[pdf](https://aclanthology.org/2021.acl-long.233.pdf)], [[code](https://github.com/liushulinle/PLOME)].
@@ -71,7 +71,7 @@ Yuzhong Hong, Xianguo Yu, Neng He, Nan Liu, Junhui Liu. [[pdf](https://aclanthol
 **Confusionset-guided Pointer Networks for Chinese Spelling Check**. ACL 2019.  
 Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)], [[code](https://github.com/sunnyqiny/Confusionset-guided-Pointer-Networks-for-Chinese-Spelling-Check)].
 
-### GEC Papers
+### 语法纠错相关论文
 > ### 2021
 
 **Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding**. ACL 2021.  
@@ -429,7 +429,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 
 
-## Datasets
+## 数据集
 | dataset | task | # sents | source | language |
 |-|-|-|-|-|
 | SIGHAN 2013 | CSC | 350 & 974 | SIGHAN | Zh |
@@ -454,16 +454,16 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 | [clang8](https://github.com/google-research-datasets/clang8) | GEC | 2,372,119 & 114,405 & 44,830 | - | En,GE,RU |
 
 
-## Systems & API
-Feiying System: http://check.hfl-rc.com/  
-Feiying API: https://www.xfyun.cn/services/textCorrection
+## 系统 & API
+飞鹰文本校对系统: http://check.hfl-rc.com/  
+飞鹰校对API: https://www.xfyun.cn/services/textCorrection
 
 
-## Other Resources
-### Related Articles
+## 其他资源
+### 相关文章
 * [语法纠错的研究现状](https://mp.weixin.qq.com/s/0_qp1WsrEsjnj8ST4zQyTQ)
 * [文本语法纠错不完全调研](https://mp.weixin.qq.com/s/Dj8KIe6LbVGonV-Kk9mO2Q)
 
 
 -----
-*The above resources are only used for academic research. If there is any infringement of copyright, please contact us to delete it.*
+*以上资源只用于学术研究，如果有侵犯版权，请联系我们进行删除。*
