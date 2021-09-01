@@ -11,6 +11,8 @@ Resources for Chinese text correction (CTC). The resource list is mainly mantain
   - [Defination](#defination)
     - [Chinese Spelling Check (CSC)](#chinese-spelling-check-csc)
     - [Grammatical Error Correction (GEC)](#grammatical-error-correction-gec)
+  - [Experimental Results on Public Datasets](#experimental-results-on-public-datasets)
+    - [SIGHAN 2015](#sighan-2015)
   - [Papers](#papers)
     - [CSC Papers](#csc-papers)
     - [GEC Papers](#gec-papers)
@@ -18,6 +20,8 @@ Resources for Chinese text correction (CTC). The resource list is mainly mantain
   - [Systems & API](#systems--api)
   - [Other Resources](#other-resources)
     - [Related Articles](#related-articles)
+    - [Shared Task](#shared-task)
+  - [* CTC 2021](#-ctc-2021)
 
 
 ## Defination
@@ -26,6 +30,31 @@ Chinese  spelling  check  (CSC)  is  a  task  to detect  and  correct  spelling 
 
 ### Grammatical Error Correction (GEC)
 Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors.
+
+## Experimental Results on Public Datasets
+### SIGHAN 2015
+*We have not collected the character-level results because of some bugs in the current commonly used character-level evaluation script. It is also recommended that researchers **do not** use character-level evaluation script or fix the evaluation script before using it.*
+
+* Without Pretraining 
+
+| Model | D-P | D-R | D-F | C-P | C-R | C-F |
+| - | - | - | - | - | - | - |
+| FASPell | 67.6 | 60.0 | 63.5 | 66.6 | 59.1 | 62.6 |
+| BERT | 73.7 | 78.2 | 75.9 | 70.9 | 75.2 | 73.0 |
+| RoBERTa | 74.7 | 77.3 | 76.0 | 72.1 | 74.5 | 73.3 |
+| SpellGCN | 74.8 | 80.7 | 77.7 | 72.1 | 77.7 | 75.9(74.8) |
+| DCN | 76.6 | 79.8 | 78.2 | 74.2 | 77.3 | 75.7 |
+
+
+* With Pretraining
+
+| Model | D-P | D-R | D-F | C-P | C-R | C-F |
+| - | - | - | - | - | - | - |
+| BERT_CRS + GAD | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
+| DCN-pretrain | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
+| REALISE | 77.3 | 81.3 | 79.3 | 84.0 | **75.9** | **79.9** | **77.8** |
+| PLOME | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
+
 
 ## Papers
 ### CSC Papers
