@@ -39,21 +39,21 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 
 | Model | D-P | D-R | D-F | C-P | C-R | C-F |
 | - | - | - | - | - | - | - |
-| FASPell | 67.6 | 60.0 | 63.5 | 66.6 | 59.1 | 62.6 |
+| [FASPell](https://github.com/iqiyi/FASPell) | 67.6 | 60.0 | 63.5 | 66.6 | 59.1 | 62.6 |
 | BERT | 73.7 | 78.2 | 75.9 | 70.9 | 75.2 | 73.0 |
 | RoBERTa | 74.7 | 77.3 | 76.0 | 72.1 | 74.5 | 73.3 |
-| SpellGCN | 74.8 | 80.7 | 77.7 | 72.1 | 77.7 | 75.9(74.8) |
-| DCN | 76.6 | 79.8 | 78.2 | 74.2 | 77.3 | 75.7 |
+| [SpellGCN](https://github.com/ACL2020SpellGCN/SpellGCN) | 74.8 | **80.7** | 77.7 | 72.1 | **77.7** | 74.8 (75.9) |
+| [DCN](https://github.com/destwang/DCN) | **76.6** | 79.8 | **78.2** | **74.2** | 77.3 | **75.7** |
 
 
 * With Pretraining
 
 | Model | D-P | D-R | D-F | C-P | C-R | C-F |
 | - | - | - | - | - | - | - |
-| BERT_CRS + GAD | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
-| DCN-pretrain | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
-| REALISE | 77.3 | 81.3 | 79.3 | 84.0 | **75.9** | **79.9** | **77.8** |
-| PLOME | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
+| [BERT_CRS + GAD](https://aclanthology.org/2021.findings-acl.122.pdf) | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
+| [DCN-pretrain](https://github.com/destwang/DCN) | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
+| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 84.0 | **75.9** | **79.9** | **77.8** |
+| [PLOME](https://github.com/liushulinle/PLOME) | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
 
 
 ## Papers
@@ -75,7 +75,7 @@ Baoxin Wang, Wanxiang Che, Dayong Wu, Shijin Wang, Guoping Hu and Ting Liu. [[pd
 Heng-Da Xu, Zhongli Li, Qingyu Zhou, Chao Li, Zizhen Wang, Yunbo Cao, Heyan Huang and Xian-Ling Mao. [[pdf](https://arxiv.org/pdf/2105.12306.pdf)], [[code](https://github.com/DaDaMrX/ReaLiSe)].
 
 **Global Attention Decoder for Chinese Spelling Error Correction**. Findings of ACL 2021.  
-Zhao Guo, Yuan Ni, Keqiang Wang, Wei Zhu and Guotong Xie. [[code](https://aclanthology.org/2021.findings-acl.122.pdf)].
+Zhao Guo, Yuan Ni, Keqiang Wang, Wei Zhu and Guotong Xie. [[pdf](https://aclanthology.org/2021.findings-acl.122.pdf)].
 
 **Correcting Chinese Spelling Errors with Phonetic Pre-training**. Findings of ACL 2021.  
 Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, Hua Wu and Haifeng Wang. [[pdf](https://aclanthology.org/2021.findings-acl.198.pdf)].
