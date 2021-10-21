@@ -82,6 +82,9 @@ Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, 
 **DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
 Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
 
+**An Alignment-Agnostic Model for Chinese Text Error Correction**. EMNLP 2021 short.  
+Liying Zheng, Yue Deng, Weishun Song, Liang Xu and Jing Xiao.
+
 > ### 2020
 **Chunk-based Chinese Spelling Check with Global Optimization**. Findings of EMNLP 2020.  
 Zuyi Bao, Chen Li and Rui Wang. [[pdf](https://aclanthology.org/2020.findings-emnlp.184.pdf)].
@@ -128,6 +131,12 @@ Zhenghao Liu, Xiaoyuan Yi, Maosong Sun, Liner Yang, Tat-Seng Chua.[[pdf](htt
 
 **Comparison of Grammatical Error Correction Using Back-Translation Models**. NAACL2021 workshop.  
 Aomi Koyama, Kengo Hotate, Masahiro Kaneko, Mamoru Komachi.[[pdf](https://aclanthology.org/2021.naacl-srw.16/)].
+
+**LM-Critic: Language Models for Unsupervised Grammatical Error Correction**. EMNLP 2021.  
+Michihiro Yasunaga, Jure Leskovec and Percy Liang.[[pdf](https://arxiv.org/abs/2109.06822)].
+
+**Multi-Class Grammatical Error Detection for Correction: A Tale of Two Systems**. EMNLP 2021.  
+Zheng Yuan, Shiva Taslimipoor, Christopher Davis and Christopher Bryant.
 
 > ### 2020
 
