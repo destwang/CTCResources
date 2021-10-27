@@ -51,7 +51,7 @@
 | - | - | - | - | - | - | - |
 | [BERT_CRS + GAD](https://aclanthology.org/2021.findings-acl.122.pdf) | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
 | [DCN-pretrain](https://github.com/destwang/DCN) | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
-| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 84.0 | **75.9** | **79.9** | **77.8** |
+| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | **75.9** | **79.9** | **77.8** |
 | [PLOME](https://github.com/liushulinle/PLOME) | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
 
 
