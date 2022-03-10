@@ -468,7 +468,12 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 
 ## Datasets
-[CTC 2021](https://destwang.github.io/CTC2021-explorer/) : [training data](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)
+### [CTC 2021](https://destwang.github.io/CTC2021-explorer/) :
+| dataset | download |
+|-|-|
+|training data|[讯飞下载](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)|
+|validation data|[百度下载](https://pan.baidu.com/s/19n-NxkMkcnOuHZPsZyFbjw) (password: 5jg2)|
+
 | dataset | task | # sents | source | language |
 |-|-|-|-|-|
 | SIGHAN 2013 | CSC | 350 & 974 | SIGHAN | Zh |
