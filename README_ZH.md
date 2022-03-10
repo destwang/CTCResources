@@ -467,6 +467,14 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 
 ## 数据集
+
+### [CTC 2021](https://destwang.github.io/CTC2021-explorer/) :
+| dataset | download |
+|-|-|
+|training data|[下载](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)|
+|validation data|[下载](https://pan.baidu.com/s/19n-NxkMkcnOuHZPsZyFbjw) (password: 5jg2)|
+
+### 其他：
 | dataset | task | # sents | source | language |
 |-|-|-|-|-|
 | SIGHAN 2013 | CSC | 350 & 974 | SIGHAN | Zh |
@@ -489,7 +497,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 | [BEA2019](https://www.cl.cam.ac.uk/research/nl/bea2019st/) | GEC | 34,308 | BEA | En |
 | PIE-synthetic | GEC | 9,000,000 | [Parallel iterative edit models for local sequence transduction](https://aclanthology.org/D19-1435/) | En |
 | [clang8](https://github.com/google-research-datasets/clang8) | GEC | 2,372,119 & 114,405 & 44,830 | - | En,GE,RU |
-
+| CTC2021 | CSC | 217,634 | - | Zh |
 
 ## 系统 & API
 飞鹰文本校对系统: http://check.hfl-rc.com/  
