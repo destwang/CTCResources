@@ -497,7 +497,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 | [BEA2019](https://www.cl.cam.ac.uk/research/nl/bea2019st/) | GEC | 34,308 | BEA | En |
 | PIE-synthetic | GEC | 9,000,000 | [Parallel iterative edit models for local sequence transduction](https://aclanthology.org/D19-1435/) | En |
 | [clang8](https://github.com/google-research-datasets/clang8) | GEC | 2,372,119 & 114,405 & 44,830 | - | En,GE,RU |
-| CTC2021 | CSC | 217634 | - | Zh |
+| CTC2021 | CSC | 217,634 | - | Zh |
 
 
 ## Systems & API
