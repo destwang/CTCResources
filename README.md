@@ -83,16 +83,16 @@ Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, 
 **DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
 Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
 
-**SpellBERT: A Lightweight Pretrained Model for Chinese Spelling Check**. EMNLP 2021.
+**SpellBERT: A Lightweight Pretrained Model for Chinese Spelling Check**. EMNLP 2021.  
 Tuo Ji, Hang Yan, Xipeng Qiu. [[pdf](https://aclanthology.org/2021.emnlp-main.287.pdf)].
 
-**Self-Supervised Curriculum Learning for Spelling Error Correction**. EMNLP 2021.
+**Self-Supervised Curriculum Learning for Spelling Error Correction**. EMNLP 2021.  
 Zifa Gan, Hongfei Xu, Hongying Zan. [[pdf](https://aclanthology.org/2021.emnlp-main.281.pdf)].
 
-**An Alignment-Agnostic Model for Chinese Text Error Correction**. EMNLP 2021 short.  
-Liying Zheng, Yue Deng, Weishun Song, Liang Xu and Jing Xiao.
+**An Alignment-Agnostic Model for Chinese Text Error Correction**. Findings of EMNLP 2021.  
+Liying Zheng, Yue Deng, Weishun Song, Liang Xu and Jing Xiao. [[pdf](https://aclanthology.org/2021.findings-emnlp.30.pdf)].
 
-**Domain-Shift Conditioning Using Adaptable Filtering Via Hierarchical Embeddings for Robust Chinese Spell Check**. TASLP 2021.
+**Domain-Shift Conditioning Using Adaptable Filtering Via Hierarchical Embeddings for Robust Chinese Spell Check**. TASLP 2021.  
 Minh Nguyen, Gia H. Ngo, and Nancy F. Chen. [[pdf](https://ieeexplore.ieee.org/abstract/document/9439969)].
 
 > ### 2020
