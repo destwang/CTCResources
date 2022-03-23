@@ -52,9 +52,9 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 | - | - | - | - | - | - | - |
 | [BERT_CRS + GAD](https://aclanthology.org/2021.findings-acl.122.pdf) | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
 | [DCN-pretrain](https://github.com/destwang/DCN) | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
-| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | **75.9** | **79.9** | **77.8** |
-| [PLOME](https://github.com/liushulinle/PLOME) | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
-
+| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 75.9 | **79.9** | **77.8** |
+| [PLOME](https://github.com/liushulinle/PLOME) | 77.4 | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
+| [Soft-Masked BERT_SSCL](https://aclanthology.org/2021.emnlp-main.281.pdf) | **86.3** | 72.5 | 78.8 | **85.2** | 66.0 | 74.4 |
 
 ## Papers
 ### CSC Papers
@@ -83,8 +83,17 @@ Ruiqing Zhang, Chao Pang, Chuanqiang Zhang, Shuohuan Wang, Zhongjun He, Yu Sun, 
 **DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction**. SIGIR 2021.  
 Jing Li, Gaosheng Wu, Dafei Yin, Haozhao Wang, Yonggang Wang. [[pdf](https://dl.acm.org/doi/pdf/10.1145/3404835.3463050)].
 
+**SpellBERT: A Lightweight Pretrained Model for Chinese Spelling Check**. EMNLP 2021.
+Tuo Ji, Hang Yan, Xipeng Qiu. [[pdf](https://aclanthology.org/2021.emnlp-main.287.pdf)].
+
+**Self-Supervised Curriculum Learning for Spelling Error Correction**. EMNLP 2021.
+Zifa Gan, Hongfei Xu, Hongying Zan. [[pdf](https://aclanthology.org/2021.emnlp-main.281.pdf)].
+
 **An Alignment-Agnostic Model for Chinese Text Error Correction**. EMNLP 2021 short.  
 Liying Zheng, Yue Deng, Weishun Song, Liang Xu and Jing Xiao.
+
+**Domain-Shift Conditioning Using Adaptable Filtering Via Hierarchical Embeddings for Robust Chinese Spell Check**. TASLP 2021.
+Minh Nguyen, Gia H. Ngo, and Nancy F. Chen. [[pdf](https://ieeexplore.ieee.org/abstract/document/9439969)].
 
 > ### 2020
 **Chunk-based Chinese Spelling Check with Global Optimization**. Findings of EMNLP 2020.  
