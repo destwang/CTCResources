@@ -1,6 +1,6 @@
 
 [**English**](https://github.com/destwang/CTCResources) | [**中文**](https://github.com/destwang/CTCResources/blob/main/README_ZH.md)
-# CTC资源
+# 中文文本纠错资源
 
 中文文本纠错（Chinese Text Correction, CTC）相关资源，本资源由哈工大讯飞联合实验室（HFL）王宝鑫和赵红红整理维护。
 
