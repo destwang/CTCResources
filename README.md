@@ -44,7 +44,6 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 | RoBERTa | 74.7 | 77.3 | 76.0 | 72.1 | 74.5 | 73.3 |
 | [SpellGCN](https://github.com/ACL2020SpellGCN/SpellGCN) | 74.8 | **80.7** | 77.7 | 72.1 | **77.7** | 74.8 (75.9) |
 | [DCN](https://github.com/destwang/DCN) | **76.6** | 79.8 | **78.2** | **74.2** | 77.3 | **75.7** |
-| [Chunk](https://aclanthology.org/2020.findings-emnlp.184.pdf) | **88.1** | 62.0 | 72.8 | **87.3** | 57.6 | 69.44 |
 
 * With Pretraining
 
@@ -52,14 +51,11 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 | - | - | - | - | - | - | - |
 | [BERT_CRS + GAD](https://aclanthology.org/2021.findings-acl.122.pdf) | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
 | [DCN-pretrain](https://github.com/destwang/DCN) | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
-| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 75.9 | **79.9** | **77.8** |
-| [PLOME](https://github.com/liushulinle/PLOME) | 77.4 | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
+| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 75.9 | 79.9 | **77.8** |
+| [PLOME](https://github.com/liushulinle/PLOME) | 77.4 | 81.5 | 79.4 | 75.3 | 79.3 | 77.2 |
 | [Soft-Masked BERT](https://aclanthology.org/2020.acl-main.82.pdf) | 73.7 | 73.2 | 73.5 | 66.7 | 66.2 | 66.4 |
-| [Soft-Masked BERT_SSCL](https://aclanthology.org/2021.emnlp-main.281.pdf) | 86.3 | 72.5 | 78.8 | 85.2 | 66.0 | 74.4 |
-| [MLM-phonetics](https://aclanthology.org/2021.findings-acl.198.pdf) | 77.5 | **83.1** | 80.2 | 74.9 | **80.2** | 77.5 |
-| [PHMOSpell](https://aclanthology.org/2021.acl-long.464.pdf) | **90.1** | 72.7 | **80.5** | **89.6** | 69.2 | 78.1 |
-| [SpellBERT](https://aclanthology.org/2021.emnlp-main.287.pdf) | 87.5 | 73.6 | 80.0 | 87.1 | 71.5 | **78.5** |
-| [Alignment-Agnostic Model](https://aclanthology.org/2021.findings-emnlp.30.pdf)| 87.5 | 68.6 | 76.9 | 87.0 | 65.2 | 74.6 |
+| [Soft-Masked BERT_SSCL](https://aclanthology.org/2021.emnlp-main.281.pdf) | **86.3** | 72.5 | 78.8 | **85.2** | 66.0 | 74.4 |
+| [MLM-phonetics](https://aclanthology.org/2021.findings-acl.198.pdf) | 77.5 | **83.1** | **80.2** | 74.9 | **80.2** | 77.5 |
 
 ## Papers
 ### CSC Papers
