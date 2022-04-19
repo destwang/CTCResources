@@ -482,7 +482,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 | dataset | download |
 |-|-|
 |training data|[download](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)|
-|validation data|[download](https://pan.baidu.com/s/1UYL7tuSXAHZHTTBBPlRDuw) (password: bsxc)|
+|validation data|[download](https://pan.baidu.com/s/1dnpCxGK0m8v-R-wMpYH2kQ) (password: asrb)|
 
 ### Others:
 | dataset | task | # sents | source | language |
