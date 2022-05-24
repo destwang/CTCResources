@@ -17,6 +17,8 @@ Resources for Chinese text correction (CTC). The resource list is mainly mantain
     - [CSC Papers](#csc-papers)
     - [GEC Papers](#gec-papers)
   - [Datasets](#datasets)
+    - [CTC 2021 :](#ctc-2021-)
+    - [Others:](#others)
   - [Systems & API](#systems--api)
   - [Other Resources](#other-resources)
     - [Related Articles](#related-articles)
@@ -59,6 +61,16 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 
 ## Papers
 ### CSC Papers
+> ### 2022
+**MDCSpell: A Multi-task Detector-Corrector Framework for Chinese Spelling Correction**. Findings of ACL 2022.  
+Chenxi Zhu, Ziqiang Ying, Boyu Zhang, Feng Mao. [[pdf](https://aclanthology.org/2022.findings-acl.98/)]
+
+**CRASpell: A Contextual Typo Robust Approach to Improve Chinese Spelling Correction**. Findings of ACL 2022.  
+Shulin Liu, Shengkang Song, Tianchi Yue, Tao Yang, Huihui Cai, TingHao Yu, Shengli Sun. [[pdf](https://aclanthology.org/2022.findings-acl.237/)]
+
+**The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for Chinese Spell Checking**.  Findings of ACL 2022.  
+Yinghui Li, Qingyu Zhou, Yangning Li, Zhongli Li, Ruiyang Liu, Rongyi Sun, Zizhen Wang, Chao Li, Yunbo Cao, Hai-Tao Zheng. [[pdf](https://aclanthology.org/2022.findings-acl.252/)]
+
 > ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
 Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[pdf](https://aclanthology.org/2021.acl-long.233.pdf)], [[code](https://github.com/liushulinle/PLOME)].
@@ -114,6 +126,26 @@ Yuzhong Hong, Xianguo Yu, Neng He, Nan Liu, Junhui Liu. [[pdf](https://aclanthol
 Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)], [[code](https://github.com/sunnyqiny/Confusionset-guided-Pointer-Networks-for-Chinese-Spelling-Check)].
 
 ### GEC Papers
+> ### 2022
+
+**Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction**. ACL 2022.  
+Maksym Tarnavskyi, Artem Chernodub, Kostiantyn Omelianchuk. [[pdf](https://aclanthology.org/2022.acl-long.266/)]
+
+**Interpretability for Language Learners Using Example-Based Grammatical Error Correction**. ACL 2022.  
+Masahiro Kaneko, Sho Takase, Ayana Niwa, Naoaki Okazaki. [[pdf](https://aclanthology.org/2022.acl-long.496/)]
+
+**Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction**. ACL 2022 short.  
+Xin Sun, Houfeng Wang. [[pdf](https://aclanthology.org/2022.acl-short.77/)]
+
+**“Is Whole Word Masking Always Better for Chinese BERT?”: Probing on Chinese Grammatical Error Correction**. Findings of ACL 2022.  
+Yong Dai, Linyang Li, Cong Zhou, Zhangyin Feng, Enbo Zhao, Xipeng Qiu, Piji Li, Duyu Tang. [[pdf](https://aclanthology.org/2022.findings-acl.1/)]
+
+**Type-Driven Multi-Turn Corrections for Grammatical Error Correction**. Findings of ACL 2022.  
+Shaopeng Lai, Qingyu Zhou, Jiali Zeng, Zhongli Li, Chao Li, Yunbo Cao, Jinsong Su. [[pdf](https://aclanthology.org/2022.findings-acl.254/)]
+
+**Reusing a Multi-lingual Setup to Bootstrap a Grammar Checker for a Very Low Resource Language without Data**. ComputEL 2022 Workshop.  
+Inga Lill Sigga Mikkelsen, Linda Wiechetek, Flammie A Pirinen. [[pdf](https://aclanthology.org/2022.computel-1.19/)]
+
 > ### 2021
 
 **Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding**. ACL 2021.  
