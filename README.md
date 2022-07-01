@@ -57,21 +57,22 @@ Grammatical Error Correction (GEC) is the task of correcting different kinds of 
 | [PLOME](https://github.com/liushulinle/PLOME) | 77.4 | 81.5 | 79.4 | 75.3 | 79.3 | 77.2 |
 | [Soft-Masked BERT](https://aclanthology.org/2020.acl-main.82.pdf) | 73.7 | 73.2 | 73.5 | 66.7 | 66.2 | 66.4 |
 | [Soft-Masked BERT_SSCL](https://aclanthology.org/2021.emnlp-main.281.pdf) | **86.3** | 72.5 | 78.8 | **85.2** | 66.0 | 74.4 |
-| [MLM-phonetics](https://aclanthology.org/2021.findings-acl.198.pdf) | 77.5 | **83.1** | 80.2 | 74.9 | **80.2** | 77.5 |
-| [MDCSpell](https://aclanthology.org/2022.findings-acl.98.pdf/) | 80.8 | 80.6 | **80.7** | 78.4 | 78.2 | 78.3 |
-
+| [MLM-phonetics](https://aclanthology.org/2021.findings-acl.198.pdf) | 77.5 | **83.1** | 80.2 | 74.9 | 80.2 | 77.5 |
+| [MDCSpell](https://aclanthology.org/2022.findings-acl.98.pdf) | 80.8 | 80.6 | **80.7** | 78.4 | 78.2 | 78.3 |
+| [ECOPO(BERT)](https://aclanthology.org/2022.findings-acl.252.pdf) | 78.2 | 82.3 | 80.2 | 76.6 | 80.4 | 78.4 |
+| [ECOPO(REALISE)](https://aclanthology.org/2022.findings-acl.252.pdf) | 77.5 | 82.6 | 80.0 | 76.1 | **81.2** | **78.5** |
 
 ## Papers
 ### CSC Papers
 > ### 2022
 **MDCSpell: A Multi-task Detector-Corrector Framework for Chinese Spelling Correction**. Findings of ACL 2022.  
-Chenxi Zhu, Ziqiang Ying, Boyu Zhang, Feng Mao. [[pdf](https://aclanthology.org/2022.findings-acl.98.pdf/)]
+Chenxi Zhu, Ziqiang Ying, Boyu Zhang, Feng Mao. [[pdf](https://aclanthology.org/2022.findings-acl.98.pdf)]
 
 **CRASpell: A Contextual Typo Robust Approach to Improve Chinese Spelling Correction**. Findings of ACL 2022.  
-Shulin Liu, Shengkang Song, Tianchi Yue, Tao Yang, Huihui Cai, TingHao Yu, Shengli Sun. [[pdf](https://aclanthology.org/2022.findings-acl.237.pdf/)]
+Shulin Liu, Shengkang Song, Tianchi Yue, Tao Yang, Huihui Cai, TingHao Yu, Shengli Sun. [[pdf](https://aclanthology.org/2022.findings-acl.237.pdf)]
 
 **The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for Chinese Spell Checking**.  Findings of ACL 2022.  
-Yinghui Li, Qingyu Zhou, Yangning Li, Zhongli Li, Ruiyang Liu, Rongyi Sun, Zizhen Wang, Chao Li, Yunbo Cao, Hai-Tao Zheng. [[pdf](https://aclanthology.org/2022.findings-acl.252.pdf/)]
+Yinghui Li, Qingyu Zhou, Yangning Li, Zhongli Li, Ruiyang Liu, Rongyi Sun, Zizhen Wang, Chao Li, Yunbo Cao, Hai-Tao Zheng. [[pdf](https://aclanthology.org/2022.findings-acl.252.pdf)]
 
 > ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
