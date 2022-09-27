@@ -6,21 +6,26 @@
 
 ## 整体内容
 
-- [CTC资源](#ctc资源)
+- [中文文本纠错资源](#中文文本纠错资源)
   - [整体内容](#整体内容)
   - [定义](#定义)
     - [中文拼写纠错（Chinese Spelling Check, CSC）](#中文拼写纠错chinese-spelling-check-csc)
     - [语法纠错（Grammatical Error Correction, GEC）](#语法纠错grammatical-error-correction-gec)
+  - [评测比赛](#评测比赛)
+    - [CAIL 2022 文书校对 （2022.09.01-2022.11.15）!](#cail-2022-文书校对-20220901-20221115)
+    - [CCL2022-CLTC 汉语学习者文本纠错评测 （2022.06.05-2022.09.10）](#ccl2022-cltc-汉语学习者文本纠错评测-20220605-20220910)
   - [公开测试集实验效果](#公开测试集实验效果)
     - [SIGHAN 2015](#sighan-2015)
   - [论文](#论文)
     - [中文拼写纠错相关论文](#中文拼写纠错相关论文)
     - [语法纠错相关论文](#语法纠错相关论文)
   - [数据集](#数据集)
+    - [CTC 2021 :](#ctc-2021-)
+    - [其他：](#其他)
   - [系统 & API](#系统--api)
   - [其他资源](#其他资源)
     - [相关文章](#相关文章)
-    - [评测比赛](#评测比赛)
+    - [评测比赛](#评测比赛-1)
 
 
 ## 定义
@@ -29,6 +34,15 @@
 
 ### 语法纠错（Grammatical Error Correction, GEC）
 语法纠错任务纠正文本中不同类型的错误，包括拼写、标点、语法等类型错误。
+
+## 评测比赛
+### CAIL 2022 文书校对 （2022.09.01-2022.11.15）![](https://img.shields.io/badge/hot-red.svg)
+[CAIL 2022文书校对任务](http://cail.cipsc.org.cn/task2.html?raceID=2&cail_tag=2022)旨在通过机器智能文本校对技术辅助司法人员自动检出并纠正法律文书中存在的错误。本任务涵盖了法律文书中存在的别字、冗余、缺失、乱序四种类型的错误。
+
+### CCL2022-CLTC 汉语学习者文本纠错评测 （2022.06.05-2022.09.10）
+
+[汉语学习者文本纠错任务](https://github.com/blcuicall/CCL2022-CLTC)（Chinese Learner Text Correction，CLTC）旨在自动检测并修改汉语学习者文本中的标点、拼写、语法、语义等错误，从而获得符合原意的正确句子。
+
 
 ## 公开测试集实验效果
 ### SIGHAN 2015
@@ -51,12 +65,28 @@
 | - | - | - | - | - | - | - |
 | [BERT_CRS + GAD](https://aclanthology.org/2021.findings-acl.122.pdf) | 75.6 | 80.4 | 77.9 | 73.2 | 77.8 | 75.4 |
 | [DCN-pretrain](https://github.com/destwang/DCN) | 77.1 | 80.9 | 79.0 | 74.5 | 78.2 | 76.3 |
-| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | **75.9** | **79.9** | **77.8** |
-| [PLOME](https://github.com/liushulinle/PLOME) | **77.4** | **81.5** | **79.4** | 75.3 | 79.3 | 77.2 |
+| [REALISE](https://github.com/DaDaMrX/ReaLiSe) | 77.3 | 81.3 | 79.3 | 75.9 | 79.9 | 77.8 |
+| [PLOME](https://github.com/liushulinle/PLOME) | 77.4 | 81.5 | 79.4 | 75.3 | 79.3 | 77.2 |
+| [Soft-Masked BERT](https://aclanthology.org/2020.acl-main.82.pdf) | 73.7 | 73.2 | 73.5 | 66.7 | 66.2 | 66.4 |
+| [Soft-Masked BERT_SSCL](https://aclanthology.org/2021.emnlp-main.281.pdf) | **86.3** | 72.5 | 78.8 | **85.2** | 66.0 | 74.4 |
+| [MLM-phonetics](https://aclanthology.org/2021.findings-acl.198.pdf) | 77.5 | **83.1** | 80.2 | 74.9 | 80.2 | 77.5 |
+| [MDCSpell](https://aclanthology.org/2022.findings-acl.98.pdf) | 80.8 | 80.6 | **80.7** | 78.4 | 78.2 | 78.3 |
+| [ECOPO(BERT)](https://aclanthology.org/2022.findings-acl.252.pdf) | 78.2 | 82.3 | 80.2 | 76.6 | 80.4 | 78.4 |
+| [ECOPO(REALISE)](https://aclanthology.org/2022.findings-acl.252.pdf) | 77.5 | 82.6 | 80.0 | 76.1 | **81.2** | **78.5** |
 
 
 ## 论文
 ### 中文拼写纠错相关论文
+> ### 2022
+**MDCSpell: A Multi-task Detector-Corrector Framework for Chinese Spelling Correction**. Findings of ACL 2022.  
+Chenxi Zhu, Ziqiang Ying, Boyu Zhang, Feng Mao. [[pdf](https://aclanthology.org/2022.findings-acl.98.pdf)]
+
+**CRASpell: A Contextual Typo Robust Approach to Improve Chinese Spelling Correction**. Findings of ACL 2022.  
+Shulin Liu, Shengkang Song, Tianchi Yue, Tao Yang, Huihui Cai, TingHao Yu, Shengli Sun. [[pdf](https://aclanthology.org/2022.findings-acl.237.pdf)]
+
+**The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for Chinese Spell Checking**.  Findings of ACL 2022.  
+Yinghui Li, Qingyu Zhou, Yangning Li, Zhongli Li, Ruiyang Liu, Rongyi Sun, Zizhen Wang, Chao Li, Yunbo Cao, Hai-Tao Zheng. [[pdf](https://aclanthology.org/2022.findings-acl.252.pdf)]
+
 > ### 2021
 **PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction**. ACL 2021.  
 Shulin Liu, Tao Yang, Tianchi Yue, Feng Zhang and Di Wang. [[pdf](https://aclanthology.org/2021.acl-long.233.pdf)], [[code](https://github.com/liushulinle/PLOME)].
@@ -103,6 +133,27 @@ Yuzhong Hong, Xianguo Yu, Neng He, Nan Liu, Junhui Liu. [[pdf](https://aclanthol
 Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)], [[code](https://github.com/sunnyqiny/Confusionset-guided-Pointer-Networks-for-Chinese-Spelling-Check)].
 
 ### 语法纠错相关论文
+> ### 2022
+
+**Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction**. ACL 2022.  
+Maksym Tarnavskyi, Artem Chernodub, Kostiantyn Omelianchuk. [[pdf](https://aclanthology.org/2022.acl-long.266/)]
+
+**Interpretability for Language Learners Using Example-Based Grammatical Error Correction**. ACL 2022.  
+Masahiro Kaneko, Sho Takase, Ayana Niwa, Naoaki Okazaki. [[pdf](https://aclanthology.org/2022.acl-long.496/)]
+
+**Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction**. ACL 2022 short.  
+Xin Sun, Houfeng Wang. [[pdf](https://aclanthology.org/2022.acl-short.77/)]
+
+**“Is Whole Word Masking Always Better for Chinese BERT?”: Probing on Chinese Grammatical Error Correction**. Findings of ACL 2022.  
+Yong Dai, Linyang Li, Cong Zhou, Zhangyin Feng, Enbo Zhao, Xipeng Qiu, Piji Li, Duyu Tang. [[pdf](https://aclanthology.org/2022.findings-acl.1/)]
+
+**Type-Driven Multi-Turn Corrections for Grammatical Error Correction**. Findings of ACL 2022.  
+Shaopeng Lai, Qingyu Zhou, Jiali Zeng, Zhongli Li, Chao Li, Yunbo Cao, Jinsong Su. [[pdf](https://aclanthology.org/2022.findings-acl.254/)]
+
+**Reusing a Multi-lingual Setup to Bootstrap a Grammar Checker for a Very Low Resource Language without Data**. ComputEL 2022 Workshop.  
+Inga Lill Sigga Mikkelsen, Linda Wiechetek, Flammie A Pirinen. [[pdf](https://aclanthology.org/2022.computel-1.19/)]
+
+
 > ### 2021
 
 **Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding**. ACL 2021.  

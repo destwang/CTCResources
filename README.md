@@ -11,6 +11,9 @@ Resources for Chinese text correction (CTC). The resource list is mainly mantain
   - [Defination](#defination)
     - [Chinese Spelling Check (CSC)](#chinese-spelling-check-csc)
     - [Grammatical Error Correction (GEC)](#grammatical-error-correction-gec)
+  - [Competition & Shared Task](#competition--shared-task)
+    - [CAIL 2022 Legal Instrument Correction（2022.09.01-2022.11.15）!](#cail-2022-legal-instrument-correction20220901-20221115)
+    - [CCL2022 Chinese Learner Text Correction（2022.06.05-2022.09.10）](#ccl2022-chinese-learner-text-correction20220605-20220910)
   - [Experimental Results on Public Datasets](#experimental-results-on-public-datasets)
     - [SIGHAN 2015](#sighan-2015)
   - [Papers](#papers)
@@ -32,6 +35,15 @@ Chinese  spelling  check  (CSC)  is  a  task  to detect  and  correct  spelling 
 
 ### Grammatical Error Correction (GEC)
 Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors.
+
+
+## Competition & Shared Task
+### CAIL 2022 Legal Instrument Correction（2022.09.01-2022.11.15）![](https://img.shields.io/badge/hot-red.svg)
+[Legal Instrument Correction](http://cail.cipsc.org.cn/task2.html?raceID=2&cail_tag=2022) aims at assisting judicial personnel to automatically detect and correct errors in legal documents through machine learning. This task covers four types of errors in legal documents: spelling errors, redundant errors, missing errors and word order errors.
+
+### CCL2022 Chinese Learner Text Correction（2022.06.05-2022.09.10）
+
+[CLTC](https://github.com/blcuicall/CCL2022-CLTC)（Chinese Learner Text Correction）aims to automatically detect and correct punctuation, spelling, grammatical, semantics and other errors in Chinese learners' texts, so as to obtain correct sentences.
 
 ## Experimental Results on Public Datasets
 ### SIGHAN 2015
