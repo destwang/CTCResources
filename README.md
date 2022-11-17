@@ -525,7 +525,14 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 
 ## Datasets
-### [CTC 2021](https://destwang.github.io/CTC2021-explorer/) :
+
+### [CCTC: A Cross-Sentence Chinese Text Correction Dataset for Native Speakers](https://aclanthology.org/2022.coling-1.294.pdf)
+| dataset | download |
+|-|-|
+|CCTC |[download](https://pan.baidu.com/s/1FzWzlshVWBVqZvLt07zqiQ) (password: 45ok)|
+
+
+### [CTC 2021](https://destwang.github.io/CTC2021-explorer/) 
 | dataset | download |
 |-|-|
 |training data|[download](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)|
