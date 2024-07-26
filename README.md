@@ -535,7 +535,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 ### [CTC 2021](https://destwang.github.io/CTC2021-explorer/) 
 | dataset | download |
 |-|-|
-|training data|[download](http://pan.iflytek.com/#/link/0CF7992308445E72001ED08F53266D25) (password: girA)|
+|training data|[download](https://pan.baidu.com/s/14lSJquTV4eZBGYlnr5Oq3Q) (password: 1yie)|
 |validation data|[download](https://pan.baidu.com/s/1dnpCxGK0m8v-R-wMpYH2kQ) (password: asrb)|
 
 ### Others:
